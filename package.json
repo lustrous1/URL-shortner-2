@@ -1,17 +1,17 @@
 {
-  "name": "url-shortener-sqlite",
+  "name": "url-shortener",
   "version": "1.0.0",
+  "description": "A simple URL shortener API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^5.1.0",
-    "shortid": "^2.2.17",
-    "sqlite3": "^5.1.7"
-  }
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
